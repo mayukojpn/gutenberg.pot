@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-06-30 13:07+0900\n"
+"PO-Revision-Date: 2017-06-30 16:30+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -193,7 +193,7 @@ msgstr ""
 
 #: blocks/library/gallery/index.js:104
 msgid "Drag images here or insert from media library"
-msgstr ""
+msgstr "イメージをドラッグするか、メディアライブラリから挿入"
 
 #: blocks/library/gallery/index.js:106
 msgid "Gallery"
@@ -205,7 +205,7 @@ msgstr "カラム"
 
 #: blocks/library/gallery/index.js:26
 msgid "Update Gallery media"
-msgstr ""
+msgstr "ギャラリーのメディアを更新"
 
 #: blocks/library/gallery/index.js:28 blocks/media-upload-button/index.js:17
 msgid "Select"
@@ -233,7 +233,7 @@ msgstr "見出し"
 
 #: blocks/library/html/index.js:22
 msgid "Custom HTML"
-msgstr ""
+msgstr "カスタム HTML"
 
 #: blocks/library/html/index.js:68
 msgid "Preview"
@@ -241,7 +241,7 @@ msgstr "プレビュー"
 
 #: blocks/library/image/index.js:105
 msgid "Alternate Text"
-msgstr ""
+msgstr "代替テキスト"
 
 #: blocks/library/latest-posts/index.js:15
 msgid "Latest Posts"
@@ -249,7 +249,7 @@ msgstr "最新の記事"
 
 #: blocks/library/latest-posts/index.js:48
 msgid "Loading latest posts, please wait"
-msgstr ""
+msgstr "最新の投稿を読み込み中"
 
 #: blocks/library/list/index.js:222
 msgid "Outdent list item"
@@ -265,7 +265,7 @@ msgstr "リスト"
 
 #: blocks/library/preformatted/index.js:16
 msgid "Preformatted"
-msgstr ""
+msgstr "整形済みテキスト"
 
 #: blocks/library/pullquote/index.js:19
 msgid "Pullquote"
@@ -273,7 +273,7 @@ msgstr ""
 
 #: blocks/library/pullquote/index.js:59
 msgid "Write Quote…"
-msgstr ""
+msgstr "引用を入力..."
 
 #: blocks/library/quote/index.js:125
 msgid "Quote style %d"
@@ -305,7 +305,7 @@ msgstr "入力..."
 
 #: blocks/media-upload-button/index.js:15
 msgid "Select or Upload a media"
-msgstr ""
+msgstr "メディアを選択またはアップロード"
 
 #: components/form-toggle/index.js:35
 msgid "On"
@@ -318,7 +318,7 @@ msgstr "オフ"
 #: components/form-token-field/index.js:194
 msgid "%d result found, use up and down arrow keys to navigate."
 msgid_plural "%d results found, use up and down arrow keys to navigate."
-msgstr[0] ""
+msgstr[0] "%d件の結果が見つかりました。上下キーを使って操作できます。"
 
 #: components/form-token-field/index.js:200
 msgid "No results."
@@ -326,19 +326,19 @@ msgstr "結果はありません。"
 
 #: components/form-token-field/index.js:543
 msgid "Separate with commas"
-msgstr ""
+msgstr "カンマ区切りで複数入力"
 
 #: components/form-token-field/index.js:562
 msgid "Item added."
-msgstr ""
+msgstr "項目を追加しました。"
 
 #: components/form-token-field/index.js:563
 msgid "Item removed."
-msgstr ""
+msgstr "項目を削除しました。"
 
 #: components/form-token-field/index.js:564
 msgid "Remove item: %s."
-msgstr ""
+msgstr "項目を削除: ％s。"
 
 #: components/notice/index.js:22
 msgid "Dismiss this notice"
