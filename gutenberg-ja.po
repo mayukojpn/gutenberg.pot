@@ -1,0 +1,696 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-06-30 13:07+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: blocks/alignment-toolbar/index.js:10
+#: blocks/block-alignment-toolbar/index.js:10
+#: blocks/library/freeform/freeform-block.js:30
+msgid "Align left"
+msgstr "左揃え"
+
+#: blocks/alignment-toolbar/index.js:15
+#: blocks/block-alignment-toolbar/index.js:14
+#: blocks/library/freeform/freeform-block.js:35
+msgid "Align center"
+msgstr "中央揃え"
+
+#: blocks/alignment-toolbar/index.js:20
+#: blocks/block-alignment-toolbar/index.js:18
+#: blocks/library/freeform/freeform-block.js:40
+msgid "Align right"
+msgstr "右揃え"
+
+#: blocks/api/categories.js:15
+msgid "Common Blocks"
+msgstr "共通ブロック"
+
+#: blocks/api/categories.js:16
+msgid "Formatting"
+msgstr "書式設定"
+
+#: blocks/api/categories.js:17
+msgid "Layout Blocks"
+msgstr "レイアウトブロック"
+
+#: blocks/api/categories.js:18
+msgid "Widgets"
+msgstr "ウィジェット"
+
+#: blocks/api/categories.js:19 blocks/library/embed/index.js:154
+msgid "Embed"
+msgstr "埋め込み"
+
+#: blocks/block-alignment-toolbar/index.js:22
+msgid "Wide width"
+msgstr "幅広"
+
+#: blocks/block-alignment-toolbar/index.js:26
+msgid "Full width"
+msgstr "全幅"
+
+#: blocks/editable/format-toolbar.js:12
+#: blocks/library/freeform/freeform-block.js:66
+msgid "Bold"
+msgstr "太字"
+
+#: blocks/editable/format-toolbar.js:138
+msgid "Link"
+msgstr "リンク"
+
+#: blocks/editable/format-toolbar.js:161 blocks/library/button/index.js:69
+msgid "Paste URL or type"
+msgstr "URL を貼り付けるか入力"
+
+#: blocks/editable/format-toolbar.js:17
+#: blocks/library/freeform/freeform-block.js:71
+msgid "Italic"
+msgstr "イタリック"
+
+#: blocks/editable/format-toolbar.js:22
+#: blocks/library/freeform/freeform-block.js:76
+msgid "Strikethrough"
+msgstr "取り消し線"
+
+#: blocks/library/button/index.js:19
+msgid "Button"
+msgstr "ボタン"
+
+#: blocks/library/button/index.js:51
+msgid "Write label…"
+msgstr "ラベルを入力..."
+
+#: blocks/library/code/index.js:20
+msgid "Code"
+msgstr "コード"
+
+#: blocks/library/cover-image/index.js:106
+msgid "Fixed Position"
+msgstr "固定位置"
+
+#: blocks/library/cover-image/index.js:117
+msgid "Write title"
+msgstr "タイトルを書く"
+
+#: blocks/library/cover-image/index.js:25
+msgid "Cover Image"
+msgstr "カバー画像"
+
+#: blocks/library/cover-image/index.js:78 blocks/library/image/index.js:80
+msgid "Drag image here or insert from media library"
+msgstr "画像をドラッグするかメディアライブラリから挿入"
+
+#: blocks/library/cover-image/index.js:80 blocks/library/image/index.js:82
+msgid "Image"
+msgstr "画像"
+
+#: blocks/library/cover-image/index.js:88 blocks/library/gallery/index.js:114
+#: blocks/library/image/index.js:90
+msgid "Insert from Media Library"
+msgstr "メディアライブラリから挿入"
+
+#: blocks/library/embed/index.js:135
+msgid "Embedding…"
+msgstr "埋め込み中..."
+
+#: blocks/library/embed/index.js:143
+msgid "%s URL"
+msgstr ""
+
+#: blocks/library/embed/index.js:149
+msgid "Enter URL to embed here…"
+msgstr "埋め込む URL をここに入力..."
+
+#: blocks/library/embed/index.js:156
+msgid "Sorry, we could not embed that content."
+msgstr "このコンテンツは埋め込むことができません。"
+
+#: blocks/library/embed/index.js:175
+msgid "Embed URL"
+msgstr "URL 埋め込み"
+
+#: blocks/library/embed/index.js:177
+msgid "Previews for this are unavailable in the editor, sorry!"
+msgstr "エディタではプレビューできないコンテンツです。"
+
+#: blocks/library/embed/index.js:185 blocks/library/image/index.js:113
+#: blocks/library/pullquote/index.js:68
+msgid "Write caption…"
+msgstr "キャプションを入力..."
+
+#: blocks/library/freeform/format-list.js:64
+msgid "No format"
+msgstr "フォーマットなし"
+
+#: blocks/library/freeform/format-list.js:73
+msgid "Change format"
+msgstr "フォーマットを変更"
+
+#: blocks/library/freeform/format-list.js:93
+msgid "Formats"
+msgstr "フォーマット"
+
+#: blocks/library/freeform/freeform-block.js:394
+msgid "More"
+msgstr "続き"
+
+#: blocks/library/freeform/freeform-block.js:49
+#: blocks/library/quote/index.js:24
+msgid "Quote"
+msgstr "引用"
+
+#: blocks/library/freeform/freeform-block.js:54
+#: blocks/library/list/index.js:210
+msgid "Convert to unordered"
+msgstr ""
+
+#: blocks/library/freeform/freeform-block.js:59
+#: blocks/library/list/index.js:216
+msgid "Convert to ordered"
+msgstr ""
+
+#: blocks/library/freeform/freeform-block.js:84
+msgid "Indent"
+msgstr "インデント"
+
+#: blocks/library/freeform/freeform-block.js:89
+msgid "Outdent"
+msgstr "アウトデント"
+
+#: blocks/library/freeform/index.js:16
+msgid "Classic Text"
+msgstr ""
+
+#: blocks/library/gallery/index.js:104
+msgid "Drag images here or insert from media library"
+msgstr ""
+
+#: blocks/library/gallery/index.js:106
+msgid "Gallery"
+msgstr "ギャラリー"
+
+#: blocks/library/gallery/index.js:125
+msgid "Columns"
+msgstr "カラム"
+
+#: blocks/library/gallery/index.js:26
+msgid "Update Gallery media"
+msgstr ""
+
+#: blocks/library/gallery/index.js:28 blocks/media-upload-button/index.js:17
+msgid "Select"
+msgstr "選択"
+
+#: blocks/library/gallery/index.js:90
+msgid "Edit Gallery"
+msgstr "ギャラリーを編集"
+
+#: blocks/library/heading/index.js:111
+msgid "Heading Size"
+msgstr "見出しサイズ"
+
+#: blocks/library/heading/index.js:116
+msgid "Heading %s"
+msgstr "見出し%s"
+
+#: blocks/library/heading/index.js:123
+msgid "Text Alignment"
+msgstr "テキストの配置"
+
+#: blocks/library/heading/index.js:26
+msgid "Heading"
+msgstr "見出し"
+
+#: blocks/library/html/index.js:22
+msgid "Custom HTML"
+msgstr ""
+
+#: blocks/library/html/index.js:68
+msgid "Preview"
+msgstr "プレビュー"
+
+#: blocks/library/image/index.js:105
+msgid "Alternate Text"
+msgstr ""
+
+#: blocks/library/latest-posts/index.js:15
+msgid "Latest Posts"
+msgstr "最新の記事"
+
+#: blocks/library/latest-posts/index.js:48
+msgid "Loading latest posts, please wait"
+msgstr ""
+
+#: blocks/library/list/index.js:222
+msgid "Outdent list item"
+msgstr ""
+
+#: blocks/library/list/index.js:227
+msgid "Indent list item"
+msgstr ""
+
+#: blocks/library/list/index.js:68
+msgid "List"
+msgstr "リスト"
+
+#: blocks/library/preformatted/index.js:16
+msgid "Preformatted"
+msgstr ""
+
+#: blocks/library/pullquote/index.js:19
+msgid "Pullquote"
+msgstr ""
+
+#: blocks/library/pullquote/index.js:59
+msgid "Write Quote…"
+msgstr ""
+
+#: blocks/library/quote/index.js:125
+msgid "Quote style %d"
+msgstr ""
+
+#: blocks/library/quote/index.js:160
+msgid "Add citation…"
+msgstr "引用元を追加..."
+
+#: blocks/library/separator/index.js:13
+msgid "Separator"
+msgstr "区切り"
+
+#: blocks/library/table/index.js:19
+msgid "Table"
+msgstr "テーブル"
+
+#: blocks/library/text/index.js:20
+msgid "Text"
+msgstr "テキスト"
+
+#: blocks/library/text/index.js:55
+msgid "Drop Cap"
+msgstr ""
+
+#: blocks/library/text/index.js:82
+msgid "Write…"
+msgstr "入力..."
+
+#: blocks/media-upload-button/index.js:15
+msgid "Select or Upload a media"
+msgstr ""
+
+#: components/form-toggle/index.js:35
+msgid "On"
+msgstr "オン"
+
+#: components/form-toggle/index.js:35
+msgid "Off"
+msgstr "オフ"
+
+#: components/form-token-field/index.js:194
+msgid "%d result found, use up and down arrow keys to navigate."
+msgid_plural "%d results found, use up and down arrow keys to navigate."
+msgstr[0] ""
+
+#: components/form-token-field/index.js:200
+msgid "No results."
+msgstr "結果はありません。"
+
+#: components/form-token-field/index.js:543
+msgid "Separate with commas"
+msgstr ""
+
+#: components/form-token-field/index.js:562
+msgid "Item added."
+msgstr ""
+
+#: components/form-token-field/index.js:563
+msgid "Item removed."
+msgstr ""
+
+#: components/form-token-field/index.js:564
+msgid "Remove item: %s."
+msgstr ""
+
+#: components/notice/index.js:22
+msgid "Dismiss this notice"
+msgstr "通知を無視"
+
+#: components/panel/body.js:39
+msgid "Open section: %s"
+msgstr ""
+
+#: editor/block-mover/mover-label.js:102
+msgid ""
+"Move %(selectedCount)d blocks from position %(position)s down by one place"
+msgstr ""
+
+# %s: Type of block (i.e. Text, Image etc)
+#: editor/block-mover/mover-label.js:28
+msgid "Block \"%s\" is the only block, and cannot be moved"
+msgstr ""
+
+#: editor/block-mover/mover-label.js:34
+msgid ""
+"Move \"%(type)s\" block from position %(position)d down to position "
+"%(newPosition)d"
+msgstr ""
+
+# %s: Type of block (i.e. Text, Image etc)
+#: editor/block-mover/mover-label.js:46
+msgid "Block \"%s\" is at the end of the content and can’t be moved down"
+msgstr ""
+
+#: editor/block-mover/mover-label.js:52
+msgid ""
+"Move \"%(type)s\" block from position %(position)d up to position "
+"%(newPosition)d"
+msgstr ""
+
+# %s: Type of block (i.e. Text, Image etc)
+#: editor/block-mover/mover-label.js:64
+msgid "Block \"%s\" is at the beginning of the content and can’t be moved up"
+msgstr ""
+
+#: editor/block-mover/mover-label.js:83
+msgid "Blocks cannot be moved up as they are already at the top"
+msgstr ""
+
+#: editor/block-mover/mover-label.js:87
+msgid "Blocks cannot be moved down as they are already at the bottom"
+msgstr ""
+
+#: editor/block-mover/mover-label.js:92
+msgid ""
+"Move %(selectedCount)d blocks from position %(position)d up by one place"
+msgstr ""
+
+#: editor/block-settings-menu/index.js:32
+msgid "Show inspector"
+msgstr ""
+
+#: editor/block-settings-menu/index.js:38
+msgid "Delete the block"
+msgstr ""
+
+#: editor/block-switcher/index.js:82
+msgid "Change block type"
+msgstr ""
+
+#: editor/block-switcher/index.js:91
+msgid "Block types"
+msgstr ""
+
+#: editor/effects.js:68
+msgid "An unknown error occurred."
+msgstr ""
+
+#: editor/header/index.js:29
+msgid "%d block selected"
+msgid_plural "%d blocks selected"
+msgstr[0] ""
+
+#: editor/header/index.js:34
+msgid "Delete selected blocks"
+msgstr ""
+
+#: editor/header/index.js:38
+msgid "Delete"
+msgstr "削除"
+
+#: editor/header/index.js:44
+msgid "Clear selected blocks"
+msgstr ""
+
+#: editor/header/mode-switcher/index.js:26
+msgid "Visual"
+msgstr "ビジュアル"
+
+#: editor/header/saved-state/index.js:33
+msgid "Saving"
+msgstr "保存中"
+
+#: editor/header/saved-state/index.js:46
+msgid "Saved"
+msgstr "保存しました"
+
+#: editor/header/saved-state/index.js:58
+msgid "Save"
+msgstr "保存"
+
+#: editor/header/tools/index.js:27
+msgid "Undo"
+msgstr "元に戻す"
+
+#: editor/header/tools/index.js:33
+msgid "Redo"
+msgstr "やり直す"
+
+#: editor/header/tools/index.js:37
+msgid "Insert"
+msgstr "挿入"
+
+#: editor/header/tools/index.js:42 editor/sidebar/block-inspector/index.js:36
+#: editor/sidebar/post-settings/index.js:26
+msgid "Post Settings"
+msgstr "投稿設定"
+
+#: editor/header/tools/publish-button.js:39
+msgid "Update"
+msgstr "更新"
+
+#: editor/header/tools/publish-button.js:41
+msgid "Schedule"
+msgstr "予約投稿"
+
+#: editor/header/tools/publish-button.js:43
+#: editor/sidebar/post-schedule/index.js:62
+msgid "Publish"
+msgstr "公開"
+
+#: editor/header/tools/publish-button.js:55
+msgid ""
+"Keep in mind this plugin is a beta version and will not display correctly on "
+"your theme."
+msgstr ""
+"このプラグインはベータ版です。お使いのテーマではまだ正しく表示されませんので"
+"ご注意ください。"
+
+#: editor/inserter/index.js:73
+msgid "Insert block"
+msgstr "ブロックを挿入"
+
+#: editor/inserter/menu.js:235
+msgid "Search blocks"
+msgstr "ブロックを検索"
+
+#: editor/inserter/menu.js:241
+msgid "Search…"
+msgstr "検索..."
+
+#: editor/modes/visual-editor/block-list.js:232
+msgid "Write your story"
+msgstr "本文をここに書く"
+
+#: editor/modes/visual-editor/block-list.js:232
+msgid "Continue writing…"
+msgstr "さらに入力..."
+
+#: editor/modes/visual-editor/index.js:74
+msgid "Visual Editor"
+msgstr "ビジュアルエディタ"
+
+#: editor/post-permalink/index.js:54
+msgid "Permalink:"
+msgstr "パーマリンク:"
+
+#: editor/post-permalink/index.js:59
+msgid "Copied!"
+msgstr "コピーしました !"
+
+#: editor/post-permalink/index.js:59
+msgid "Copy"
+msgstr "コピー"
+
+#: editor/post-title/index.js:102
+msgid "Add title"
+msgstr "タイトルを追加"
+
+#: editor/sidebar/discussion-panel/index.js:27
+msgid "Discussion"
+msgstr "ディスカッション"
+
+#: editor/sidebar/discussion-panel/index.js:29
+msgid "Allow Comments"
+msgstr "コメントを許可"
+
+#: editor/sidebar/discussion-panel/index.js:38
+msgid "Allow Pingbacks & Trackbacks"
+msgstr "ピンバックとトラックバックを許可"
+
+#: editor/sidebar/featured-image/index.js:108
+msgid "Set featured image"
+msgstr "アイキャッチ画像を設定"
+
+#: editor/sidebar/featured-image/index.js:113
+msgid "Remove featured image"
+msgstr "アイキャッチ画像を削除"
+
+#: editor/sidebar/featured-image/index.js:91
+msgid "Featured image"
+msgstr "アイキャッチ画像"
+
+#: editor/sidebar/featured-image/index.js:99
+msgid "Click the image to edit or update"
+msgstr "画像をクリックして編集または更新"
+
+#: editor/sidebar/last-revision/index.js:102
+msgid "%d Revision"
+msgid_plural "%d Revisions"
+msgstr[0] "%d件のリビジョン"
+
+#: editor/sidebar/post-excerpt/index.js:28
+msgid "Write an excerpt (optional)"
+msgstr "抜粋を入力 (任意)"
+
+#: editor/sidebar/post-excerpt/index.js:29
+msgid "Excerpt"
+msgstr "抜粋"
+
+#: editor/sidebar/post-excerpt/index.js:32
+msgid "Learn more about manual excerpts"
+msgstr "手動の抜粋について詳しく"
+
+#: editor/sidebar/post-schedule/clock.js:73
+msgid "AM"
+msgstr "午前"
+
+#: editor/sidebar/post-schedule/clock.js:80
+msgid "PM"
+msgstr "午後"
+
+#: editor/sidebar/post-schedule/index.js:46
+msgid "Immediately"
+msgstr "すぐに"
+
+#: editor/sidebar/post-settings/index.js:30
+msgid "WordPress settings"
+msgstr "WordPress 設定"
+
+#: editor/sidebar/post-settings/index.js:35
+msgid "Close post settings sidebar"
+msgstr "投稿設定サイドバーを閉じる"
+
+#: editor/sidebar/post-status/index.js:45
+msgid "Standard"
+msgstr "標準"
+
+#: editor/sidebar/post-status/index.js:49
+msgid "Status & Visibility"
+msgstr "ステータスと公開状態"
+
+#: editor/sidebar/post-status/index.js:52
+msgid "Pending review"
+msgstr "レビュー待ち"
+
+#: editor/sidebar/post-status/index.js:68
+msgid "Post Format"
+msgstr "投稿フォーマット"
+
+#: editor/sidebar/post-sticky/index.js:27
+msgid "Stick to the front page"
+msgstr "フロントページに固定"
+
+#: editor/sidebar/post-taxonomies/categories-selector.js:118
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: editor/sidebar/post-taxonomies/index.js:16
+msgid "Categories & Tags"
+msgstr "カテゴリーとタグ"
+
+#: editor/sidebar/post-taxonomies/tags-selector.js:110
+msgid "Tags"
+msgstr "タグ"
+
+#: editor/sidebar/post-taxonomies/tags-selector.js:118
+msgid "Add New Tag"
+msgstr "新しいタグを追加"
+
+#: editor/sidebar/post-taxonomies/tags-selector.js:120
+msgid "Tag added."
+msgstr "タグを追加しました。"
+
+#: editor/sidebar/post-taxonomies/tags-selector.js:121
+msgid "Tag removed."
+msgstr "タグを削除しました。"
+
+#: editor/sidebar/post-taxonomies/tags-selector.js:122
+msgid "Remove tag: %s."
+msgstr "タグを削除: %s。"
+
+#: editor/sidebar/post-trash/index.js:28
+msgid "Move to trash"
+msgstr "ゴミ箱に移動"
+
+#: editor/sidebar/post-visibility/index.js:108
+msgid "Visibility"
+msgstr "公開状態"
+
+#: editor/sidebar/post-visibility/index.js:117
+msgid "Post Visibility"
+msgstr "公開状態"
+
+#: editor/sidebar/post-visibility/index.js:136
+msgid "Create password"
+msgstr "パスワードを作成"
+
+#: editor/sidebar/post-visibility/index.js:52
+msgid "Would you like to privately publish this post now?"
+msgstr ""
+
+#: editor/sidebar/post-visibility/index.js:82
+msgid "Public"
+msgstr "公開"
+
+#: editor/sidebar/post-visibility/index.js:83
+msgid "Visible to everyone."
+msgstr "すべての人に表示されます。"
+
+#: editor/sidebar/post-visibility/index.js:89
+msgid "Private"
+msgstr "非公開"
+
+#: editor/sidebar/post-visibility/index.js:90
+msgid "Only visible to site admins and editors."
+msgstr "サイト管理者と編集者にだけ表示されます。"
+
+#: editor/sidebar/post-visibility/index.js:96
+msgid "Password Protected"
+msgstr "パスワード保護"
+
+#: editor/sidebar/post-visibility/index.js:97
+msgid ""
+"Protected with a password you choose. Only those with the password can view "
+"this post."
+msgstr ""
+"任意のパスワードで保護します。パスワードを知っているユーザーだけがこの記事を"
+"表示できます。"
+
+#: editor/header/mode-switcher/index.js:30
+msgctxt "Name for the Text editor tab (formerly HTML)"
+msgid "Text"
+msgstr "テキスト"
+
+#: editor/header/tools/preview-button.js:25
+msgctxt "imperative verb"
+msgid "Preview"
+msgstr "プレビュー"
