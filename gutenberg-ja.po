@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-06-30 16:30+0900\n"
+"PO-Revision-Date: 2017-07-04 12:10+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -125,7 +125,7 @@ msgstr "埋め込み中..."
 
 #: blocks/library/embed/index.js:143
 msgid "%s URL"
-msgstr ""
+msgstr "%s URL"
 
 #: blocks/library/embed/index.js:149
 msgid "Enter URL to embed here…"
@@ -172,12 +172,12 @@ msgstr "引用"
 #: blocks/library/freeform/freeform-block.js:54
 #: blocks/library/list/index.js:210
 msgid "Convert to unordered"
-msgstr ""
+msgstr "番号なしに変換"
 
 #: blocks/library/freeform/freeform-block.js:59
 #: blocks/library/list/index.js:216
 msgid "Convert to ordered"
-msgstr ""
+msgstr "番号付きに変換"
 
 #: blocks/library/freeform/freeform-block.js:84
 msgid "Indent"
@@ -189,7 +189,7 @@ msgstr "アウトデント"
 
 #: blocks/library/freeform/index.js:16
 msgid "Classic Text"
-msgstr ""
+msgstr "従来のテキスト"
 
 #: blocks/library/gallery/index.js:104
 msgid "Drag images here or insert from media library"
@@ -253,11 +253,11 @@ msgstr "最新の投稿を読み込み中"
 
 #: blocks/library/list/index.js:222
 msgid "Outdent list item"
-msgstr ""
+msgstr "リスト項目をアウトデント"
 
 #: blocks/library/list/index.js:227
 msgid "Indent list item"
-msgstr ""
+msgstr "リスト項目をインデント"
 
 #: blocks/library/list/index.js:68
 msgid "List"
@@ -297,7 +297,7 @@ msgstr "テキスト"
 
 #: blocks/library/text/index.js:55
 msgid "Drop Cap"
-msgstr ""
+msgstr "下付きキャプション"
 
 #: blocks/library/text/index.js:82
 msgid "Write…"
