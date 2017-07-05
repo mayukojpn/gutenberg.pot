@@ -38,7 +38,7 @@ msgid "Widgets"
 msgstr ""
 
 #: blocks/api/categories.js:19
-#: blocks/library/embed/index.js:154
+#: blocks/library/embed/index.js:157
 msgid "Embed"
 msgstr ""
 
@@ -60,7 +60,7 @@ msgid "Link"
 msgstr ""
 
 #: blocks/editable/format-toolbar.js:161
-#: blocks/library/button/index.js:69
+#: blocks/library/button/index.js:70
 msgid "Paste URL or type"
 msgstr ""
 
@@ -74,11 +74,11 @@ msgstr ""
 msgid "Strikethrough"
 msgstr ""
 
-#: blocks/library/button/index.js:19
+#: blocks/library/button/index.js:20
 msgid "Button"
 msgstr ""
 
-#: blocks/library/button/index.js:51
+#: blocks/library/button/index.js:52
 msgid "Write label…"
 msgstr ""
 
@@ -86,31 +86,53 @@ msgstr ""
 msgid "Code"
 msgstr ""
 
-#: blocks/library/cover-image/index.js:106
-msgid "Fixed Position"
+#: blocks/library/code/index.js:36
+msgid "Write code…"
+msgstr ""
+
+#: blocks/library/cover-image/index.js:113
+msgid "Cover Image is a bold image block with an optional title."
+msgstr ""
+
+#: blocks/library/cover-image/index.js:115
+msgid "Cover Image Settings"
 msgstr ""
 
 #: blocks/library/cover-image/index.js:117
-msgid "Write title"
+msgid "Fixed Background"
 msgstr ""
 
-#: blocks/library/cover-image/index.js:25
+#: blocks/library/cover-image/index.js:122
+msgid "Dim Background"
+msgstr ""
+
+#: blocks/library/cover-image/index.js:133
+msgid "Write title…"
+msgstr ""
+
+#: blocks/library/cover-image/index.js:27
 msgid "Cover Image"
 msgstr ""
 
-#: blocks/library/cover-image/index.js:78
-#: blocks/library/image/index.js:80
+#: blocks/library/cover-image/index.js:63
+#: blocks/library/image/index.js:65
+msgid "Edit image"
+msgstr ""
+
+#: blocks/library/cover-image/index.js:83
+#: blocks/library/image/index.js:84
 msgid "Drag image here or insert from media library"
 msgstr ""
 
-#: blocks/library/cover-image/index.js:80
-#: blocks/library/image/index.js:82
+#: blocks/library/cover-image/index.js:85
+#: blocks/library/image/index.js:86
+#: editor/modes/visual-editor/block-list.js:265
 msgid "Image"
 msgstr ""
 
-#: blocks/library/cover-image/index.js:88
-#: blocks/library/gallery/index.js:114
-#: blocks/library/image/index.js:90
+#: blocks/library/cover-image/index.js:93
+#: blocks/library/gallery/index.js:120
+#: blocks/library/image/index.js:94
 msgid "Insert from Media Library"
 msgstr ""
 
@@ -118,29 +140,33 @@ msgstr ""
 msgid "Embedding…"
 msgstr ""
 
-#: blocks/library/embed/index.js:143
+#: blocks/library/embed/index.js:141
 msgid "%s URL"
 msgstr ""
 
-#: blocks/library/embed/index.js:149
+#: blocks/library/embed/index.js:152
 msgid "Enter URL to embed here…"
 msgstr ""
 
-#: blocks/library/embed/index.js:156
+#: blocks/library/embed/index.js:159
 msgid "Sorry, we could not embed that content."
 msgstr ""
 
-#: blocks/library/embed/index.js:175
-msgid "Embed URL"
+#: blocks/library/embed/index.js:167
+msgid "Embedded content from %s"
 msgstr ""
 
 #: blocks/library/embed/index.js:177
+msgid "Embed URL"
+msgstr ""
+
+#: blocks/library/embed/index.js:179
 msgid "Previews for this are unavailable in the editor, sorry!"
 msgstr ""
 
-#: blocks/library/embed/index.js:185
-#: blocks/library/image/index.js:113
-#: blocks/library/pullquote/index.js:68
+#: blocks/library/embed/index.js:187
+#: blocks/library/image/index.js:121
+#: blocks/library/pullquote/index.js:69
 msgid "Write caption…"
 msgstr ""
 
@@ -187,44 +213,70 @@ msgstr ""
 msgid "Classic Text"
 msgstr ""
 
-#: blocks/library/gallery/index.js:104
+#: blocks/library/gallery/index.js:109
 msgid "Drag images here or insert from media library"
 msgstr ""
 
-#: blocks/library/gallery/index.js:106
+#: blocks/library/gallery/index.js:111
 msgid "Gallery"
 msgstr ""
 
-#: blocks/library/gallery/index.js:125
+#: blocks/library/gallery/index.js:131
+msgid "Image galleries are a great way to share groups of pictures on your site."
+msgstr ""
+
+#: blocks/library/gallery/index.js:133
+msgid "Gallery Settings"
+msgstr ""
+
+#: blocks/library/gallery/index.js:135
 msgid "Columns"
 msgstr ""
 
-#: blocks/library/gallery/index.js:26
-msgid "Update Gallery media"
+#: blocks/library/gallery/index.js:142
+msgid "Crop Images"
 msgstr ""
 
 #: blocks/library/gallery/index.js:28
+msgid "Update Gallery media"
+msgstr ""
+
+#: blocks/library/gallery/index.js:30
 #: blocks/media-upload-button/index.js:17
 msgid "Select"
 msgstr ""
 
-#: blocks/library/gallery/index.js:90
+#: blocks/library/gallery/index.js:93
 msgid "Edit Gallery"
 msgstr ""
 
-#: blocks/library/heading/index.js:111
-msgid "Heading Size"
+#: blocks/library/heading/index.js:113
+msgid ""
+"Search engines use the headings to index the structure and content of your "
+"web pages."
+msgstr ""
+
+#: blocks/library/heading/index.js:115
+msgid "Heading Settings"
 msgstr ""
 
 #: blocks/library/heading/index.js:116
+msgid "Size"
+msgstr ""
+
+#: blocks/library/heading/index.js:121
 msgid "Heading %s"
 msgstr ""
 
-#: blocks/library/heading/index.js:123
+#: blocks/library/heading/index.js:128
 msgid "Text Alignment"
 msgstr ""
 
-#: blocks/library/heading/index.js:26
+#: blocks/library/heading/index.js:153
+msgid "Write heading…"
+msgstr ""
+
+#: blocks/library/heading/index.js:27
 msgid "Heading"
 msgstr ""
 
@@ -236,15 +288,31 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: blocks/library/image/index.js:105
+#: blocks/library/image/index.js:110
+msgid "Worth a thousand words."
+msgstr ""
+
+#: blocks/library/image/index.js:112
+msgid "Image Settings"
+msgstr ""
+
+#: blocks/library/image/index.js:113
 msgid "Alternate Text"
 msgstr ""
 
-#: blocks/library/latest-posts/index.js:15
+#: blocks/library/latest-posts/index.js:105
+msgid "Display post date"
+msgstr ""
+
+#: blocks/library/latest-posts/index.js:110
+msgid "Number of posts to show"
+msgstr ""
+
+#: blocks/library/latest-posts/index.js:23
 msgid "Latest Posts"
 msgstr ""
 
-#: blocks/library/latest-posts/index.js:48
+#: blocks/library/latest-posts/index.js:92
 msgid "Loading latest posts, please wait"
 msgstr ""
 
@@ -264,20 +332,25 @@ msgstr ""
 msgid "Preformatted"
 msgstr ""
 
-#: blocks/library/pullquote/index.js:19
+#: blocks/library/preformatted/index.js:59
+msgid "Write preformatted text…"
+msgstr ""
+
+#: blocks/library/pullquote/index.js:20
 msgid "Pullquote"
 msgstr ""
 
-#: blocks/library/pullquote/index.js:59
-msgid "Write Quote…"
+#: blocks/library/pullquote/index.js:60
+#: blocks/library/quote/index.js:155
+msgid "Write quote…"
 msgstr ""
 
 #: blocks/library/quote/index.js:125
 msgid "Quote style %d"
 msgstr ""
 
-#: blocks/library/quote/index.js:160
-msgid "Add citation…"
+#: blocks/library/quote/index.js:161
+msgid "Write citation…"
 msgstr ""
 
 #: blocks/library/separator/index.js:13
@@ -288,15 +361,52 @@ msgstr ""
 msgid "Table"
 msgstr ""
 
-#: blocks/library/text/index.js:20
+#: blocks/library/table2/index.js:13
+msgid "TinyMCE Table"
+msgstr ""
+
+#: blocks/library/table2/table-block.js:16
+msgid "Insert Row Before"
+msgstr ""
+
+#: blocks/library/table2/table-block.js:21
+msgid "Insert Row After"
+msgstr ""
+
+#: blocks/library/table2/table-block.js:26
+msgid "Delete Row"
+msgstr ""
+
+#: blocks/library/table2/table-block.js:31
+msgid "Insert Column Before"
+msgstr ""
+
+#: blocks/library/table2/table-block.js:36
+msgid "Insert Column After"
+msgstr ""
+
+#: blocks/library/table2/table-block.js:41
+msgid "Delete Column"
+msgstr ""
+
+#: blocks/library/text/index.js:22
+#: editor/modes/visual-editor/block-list.js:258
 msgid "Text"
 msgstr ""
 
-#: blocks/library/text/index.js:55
+#: blocks/library/text/index.js:57
+msgid "Text. Great things start here."
+msgstr ""
+
+#: blocks/library/text/index.js:59
+msgid "Text Settings"
+msgstr ""
+
+#: blocks/library/text/index.js:61
 msgid "Drop Cap"
 msgstr ""
 
-#: blocks/library/text/index.js:82
+#: blocks/library/text/index.js:88
 msgid "Write…"
 msgstr ""
 
@@ -312,29 +422,29 @@ msgstr ""
 msgid "Off"
 msgstr ""
 
-#: components/form-token-field/index.js:194
+#: components/form-token-field/index.js:196
 msgid "%d result found, use up and down arrow keys to navigate."
 msgid_plural "%d results found, use up and down arrow keys to navigate."
 msgstr[0] ""
 msgstr[1] ""
 
-#: components/form-token-field/index.js:200
+#: components/form-token-field/index.js:202
 msgid "No results."
 msgstr ""
 
-#: components/form-token-field/index.js:543
+#: components/form-token-field/index.js:545
 msgid "Separate with commas"
 msgstr ""
 
-#: components/form-token-field/index.js:562
+#: components/form-token-field/index.js:565
 msgid "Item added."
 msgstr ""
 
-#: components/form-token-field/index.js:563
+#: components/form-token-field/index.js:566
 msgid "Item removed."
 msgstr ""
 
-#: components/form-token-field/index.js:564
+#: components/form-token-field/index.js:567
 msgid "Remove item: %s."
 msgstr ""
 
@@ -405,8 +515,40 @@ msgstr ""
 msgid "Block types"
 msgstr ""
 
-#: editor/effects.js:68
+#: editor/effects.js:100
+msgid "View post"
+msgstr ""
+
+#: editor/effects.js:123
+msgid "Publishing failed"
+msgstr ""
+
+#: editor/effects.js:124
+msgid "Scheduling failed"
+msgstr ""
+
+#: editor/effects.js:128
+msgid "Updating failed"
+msgstr ""
+
+#: editor/effects.js:69
 msgid "An unknown error occurred."
+msgstr ""
+
+#: editor/effects.js:84
+msgid "Post published!"
+msgstr ""
+
+#: editor/effects.js:85
+msgid "Post published privately!"
+msgstr ""
+
+#: editor/effects.js:86
+msgid "Post schduled!"
+msgstr ""
+
+#: editor/effects.js:95
+msgid "Post updated!"
 msgstr ""
 
 #: editor/header/index.js:29
@@ -484,23 +626,36 @@ msgstr ""
 msgid "Insert block"
 msgstr ""
 
-#: editor/inserter/menu.js:235
+#: editor/inserter/menu.js:258
 msgid "Search blocks"
 msgstr ""
 
-#: editor/inserter/menu.js:241
+#: editor/inserter/menu.js:264
 msgid "Search…"
 msgstr ""
 
-#: editor/modes/visual-editor/block-list.js:232
+#: editor/inserter/menu.js:331
+msgid "Recent"
+msgstr ""
+
+#: editor/inserter/menu.js:337
+msgid "Blocks"
+msgstr ""
+
+#: editor/inserter/menu.js:343
+msgid "Embeds"
+msgstr ""
+
+#: editor/modes/visual-editor/block-list.js:245
 msgid "Write your story"
 msgstr ""
 
-#: editor/modes/visual-editor/block-list.js:232
-msgid "Continue writing…"
+# %s: Type of block (i.e. Text, Image etc)
+#: editor/modes/visual-editor/block.js:241
+msgid "Block: %s"
 msgstr ""
 
-#: editor/modes/visual-editor/index.js:74
+#: editor/modes/visual-editor/index.js:73
 msgid "Visual Editor"
 msgstr ""
 
@@ -606,7 +761,7 @@ msgstr ""
 msgid "Stick to the front page"
 msgstr ""
 
-#: editor/sidebar/post-taxonomies/categories-selector.js:118
+#: editor/sidebar/post-taxonomies/categories-selector.js:119
 msgid "Categories"
 msgstr ""
 
@@ -614,23 +769,23 @@ msgstr ""
 msgid "Categories & Tags"
 msgstr ""
 
-#: editor/sidebar/post-taxonomies/tags-selector.js:110
+#: editor/sidebar/post-taxonomies/tags-selector.js:153
 msgid "Tags"
 msgstr ""
 
-#: editor/sidebar/post-taxonomies/tags-selector.js:118
+#: editor/sidebar/post-taxonomies/tags-selector.js:162
 msgid "Add New Tag"
 msgstr ""
 
-#: editor/sidebar/post-taxonomies/tags-selector.js:120
+#: editor/sidebar/post-taxonomies/tags-selector.js:164
 msgid "Tag added."
 msgstr ""
 
-#: editor/sidebar/post-taxonomies/tags-selector.js:121
+#: editor/sidebar/post-taxonomies/tags-selector.js:165
 msgid "Tag removed."
 msgstr ""
 
-#: editor/sidebar/post-taxonomies/tags-selector.js:122
+#: editor/sidebar/post-taxonomies/tags-selector.js:166
 msgid "Remove tag: %s."
 msgstr ""
 
