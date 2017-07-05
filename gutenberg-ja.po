@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-07-04 12:10+0900\n"
+"PO-Revision-Date: 2017-07-05 21:11+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -47,7 +47,7 @@ msgstr "レイアウトブロック"
 msgid "Widgets"
 msgstr "ウィジェット"
 
-#: blocks/api/categories.js:19 blocks/library/embed/index.js:154
+#: blocks/api/categories.js:19 blocks/library/embed/index.js:157
 msgid "Embed"
 msgstr "埋め込み"
 
@@ -68,7 +68,7 @@ msgstr "太字"
 msgid "Link"
 msgstr "リンク"
 
-#: blocks/editable/format-toolbar.js:161 blocks/library/button/index.js:69
+#: blocks/editable/format-toolbar.js:161 blocks/library/button/index.js:70
 msgid "Paste URL or type"
 msgstr "URL を貼り付けるか入力"
 
@@ -82,11 +82,11 @@ msgstr "イタリック"
 msgid "Strikethrough"
 msgstr "取り消し線"
 
-#: blocks/library/button/index.js:19
+#: blocks/library/button/index.js:20
 msgid "Button"
 msgstr "ボタン"
 
-#: blocks/library/button/index.js:51
+#: blocks/library/button/index.js:52
 msgid "Write label…"
 msgstr "ラベルを入力..."
 
@@ -94,28 +94,49 @@ msgstr "ラベルを入力..."
 msgid "Code"
 msgstr "コード"
 
-#: blocks/library/cover-image/index.js:106
-msgid "Fixed Position"
-msgstr "固定位置"
+#: blocks/library/code/index.js:36
+msgid "Write code…"
+msgstr "コードを入力..."
+
+#: blocks/library/cover-image/index.js:113
+msgid "Cover Image is a bold image block with an optional title."
+msgstr "カバー画像は目立つ画像ブロックで、任意でタイトルを追加できます。"
+
+#: blocks/library/cover-image/index.js:115
+msgid "Cover Image Settings"
+msgstr "カバー画像設定"
 
 #: blocks/library/cover-image/index.js:117
-msgid "Write title"
-msgstr "タイトルを書く"
+msgid "Fixed Background"
+msgstr "背景を固定する"
 
-#: blocks/library/cover-image/index.js:25
+#: blocks/library/cover-image/index.js:122
+msgid "Dim Background"
+msgstr "背景を暗くする"
+
+#: blocks/library/cover-image/index.js:133
+msgid "Write title…"
+msgstr "タイトルを入力..."
+
+#: blocks/library/cover-image/index.js:27
 msgid "Cover Image"
 msgstr "カバー画像"
 
-#: blocks/library/cover-image/index.js:78 blocks/library/image/index.js:80
+#: blocks/library/cover-image/index.js:63 blocks/library/image/index.js:65
+msgid "Edit image"
+msgstr "画像を編集"
+
+#: blocks/library/cover-image/index.js:83 blocks/library/image/index.js:84
 msgid "Drag image here or insert from media library"
 msgstr "画像をドラッグするかメディアライブラリから挿入"
 
-#: blocks/library/cover-image/index.js:80 blocks/library/image/index.js:82
+#: blocks/library/cover-image/index.js:85 blocks/library/image/index.js:86
+#: editor/modes/visual-editor/block-list.js:265
 msgid "Image"
 msgstr "画像"
 
-#: blocks/library/cover-image/index.js:88 blocks/library/gallery/index.js:114
-#: blocks/library/image/index.js:90
+#: blocks/library/cover-image/index.js:93 blocks/library/gallery/index.js:120
+#: blocks/library/image/index.js:94
 msgid "Insert from Media Library"
 msgstr "メディアライブラリから挿入"
 
@@ -123,28 +144,32 @@ msgstr "メディアライブラリから挿入"
 msgid "Embedding…"
 msgstr "埋め込み中..."
 
-#: blocks/library/embed/index.js:143
+#: blocks/library/embed/index.js:141
 msgid "%s URL"
 msgstr "%s URL"
 
-#: blocks/library/embed/index.js:149
+#: blocks/library/embed/index.js:152
 msgid "Enter URL to embed here…"
 msgstr "埋め込む URL をここに入力..."
 
-#: blocks/library/embed/index.js:156
+#: blocks/library/embed/index.js:159
 msgid "Sorry, we could not embed that content."
 msgstr "このコンテンツは埋め込むことができません。"
 
-#: blocks/library/embed/index.js:175
+#: blocks/library/embed/index.js:167
+msgid "Embedded content from %s"
+msgstr "%sからの埋め込みコンテンツ"
+
+#: blocks/library/embed/index.js:177
 msgid "Embed URL"
 msgstr "URL 埋め込み"
 
-#: blocks/library/embed/index.js:177
+#: blocks/library/embed/index.js:179
 msgid "Previews for this are unavailable in the editor, sorry!"
 msgstr "エディタではプレビューできないコンテンツです。"
 
-#: blocks/library/embed/index.js:185 blocks/library/image/index.js:113
-#: blocks/library/pullquote/index.js:68
+#: blocks/library/embed/index.js:187 blocks/library/image/index.js:121
+#: blocks/library/pullquote/index.js:69
 msgid "Write caption…"
 msgstr "キャプションを入力..."
 
@@ -191,43 +216,72 @@ msgstr "アウトデント"
 msgid "Classic Text"
 msgstr "従来のテキスト"
 
-#: blocks/library/gallery/index.js:104
+#: blocks/library/gallery/index.js:109
 msgid "Drag images here or insert from media library"
 msgstr "イメージをドラッグするか、メディアライブラリから挿入"
 
-#: blocks/library/gallery/index.js:106
+#: blocks/library/gallery/index.js:111
 msgid "Gallery"
 msgstr "ギャラリー"
 
-#: blocks/library/gallery/index.js:125
+#: blocks/library/gallery/index.js:131
+msgid ""
+"Image galleries are a great way to share groups of pictures on your site."
+msgstr "画像ギャラリーは、サイト上で画像グループをシェアする優れた方法です。"
+
+#: blocks/library/gallery/index.js:133
+msgid "Gallery Settings"
+msgstr "ギャラリー設定"
+
+#: blocks/library/gallery/index.js:135
 msgid "Columns"
 msgstr "カラム"
 
-#: blocks/library/gallery/index.js:26
+#: blocks/library/gallery/index.js:142
+msgid "Crop Images"
+msgstr "画像の切り抜き"
+
+#: blocks/library/gallery/index.js:28
 msgid "Update Gallery media"
 msgstr "ギャラリーのメディアを更新"
 
-#: blocks/library/gallery/index.js:28 blocks/media-upload-button/index.js:17
+#: blocks/library/gallery/index.js:30 blocks/media-upload-button/index.js:17
 msgid "Select"
 msgstr "選択"
 
-#: blocks/library/gallery/index.js:90
+#: blocks/library/gallery/index.js:93
 msgid "Edit Gallery"
 msgstr "ギャラリーを編集"
 
-#: blocks/library/heading/index.js:111
-msgid "Heading Size"
-msgstr "見出しサイズ"
+#: blocks/library/heading/index.js:113
+msgid ""
+"Search engines use the headings to index the structure and content of your "
+"web pages."
+msgstr ""
+"見出しは、検索エンジンが Web ページの構造のコンテンツをインデックスするのに使"
+"用します。"
+
+#: blocks/library/heading/index.js:115
+msgid "Heading Settings"
+msgstr "見出し設定"
 
 #: blocks/library/heading/index.js:116
+msgid "Size"
+msgstr "サイズ"
+
+#: blocks/library/heading/index.js:121
 msgid "Heading %s"
 msgstr "見出し%s"
 
-#: blocks/library/heading/index.js:123
+#: blocks/library/heading/index.js:128
 msgid "Text Alignment"
 msgstr "テキストの配置"
 
-#: blocks/library/heading/index.js:26
+#: blocks/library/heading/index.js:153
+msgid "Write heading…"
+msgstr "見出しを入力..."
+
+#: blocks/library/heading/index.js:27
 msgid "Heading"
 msgstr "見出し"
 
@@ -239,15 +293,31 @@ msgstr "カスタム HTML"
 msgid "Preview"
 msgstr "プレビュー"
 
-#: blocks/library/image/index.js:105
+#: blocks/library/image/index.js:110
+msgid "Worth a thousand words."
+msgstr "百聞は一見に如かず。"
+
+#: blocks/library/image/index.js:112
+msgid "Image Settings"
+msgstr "画像設定"
+
+#: blocks/library/image/index.js:113
 msgid "Alternate Text"
 msgstr "代替テキスト"
 
-#: blocks/library/latest-posts/index.js:15
+#: blocks/library/latest-posts/index.js:105
+msgid "Display post date"
+msgstr "投稿日を表示"
+
+#: blocks/library/latest-posts/index.js:110
+msgid "Number of posts to show"
+msgstr "表示する記事数"
+
+#: blocks/library/latest-posts/index.js:23
 msgid "Latest Posts"
 msgstr "最新の記事"
 
-#: blocks/library/latest-posts/index.js:48
+#: blocks/library/latest-posts/index.js:92
 msgid "Loading latest posts, please wait"
 msgstr "最新の投稿を読み込み中"
 
@@ -267,21 +337,25 @@ msgstr "リスト"
 msgid "Preformatted"
 msgstr "整形済みテキスト"
 
-#: blocks/library/pullquote/index.js:19
-msgid "Pullquote"
-msgstr ""
+#: blocks/library/preformatted/index.js:59
+msgid "Write preformatted text…"
+msgstr "整形済みテキストを入力..."
 
-#: blocks/library/pullquote/index.js:59
-msgid "Write Quote…"
+#: blocks/library/pullquote/index.js:20
+msgid "Pullquote"
+msgstr "リードコラム"
+
+#: blocks/library/pullquote/index.js:60 blocks/library/quote/index.js:155
+msgid "Write quote…"
 msgstr "引用を入力..."
 
 #: blocks/library/quote/index.js:125
 msgid "Quote style %d"
-msgstr ""
+msgstr "引用スタイル %d"
 
-#: blocks/library/quote/index.js:160
-msgid "Add citation…"
-msgstr "引用元を追加..."
+#: blocks/library/quote/index.js:161
+msgid "Write citation…"
+msgstr "引用元を入力..."
 
 #: blocks/library/separator/index.js:13
 msgid "Separator"
@@ -291,15 +365,52 @@ msgstr "区切り"
 msgid "Table"
 msgstr "テーブル"
 
-#: blocks/library/text/index.js:20
+#: blocks/library/table2/index.js:13
+msgid "TinyMCE Table"
+msgstr "TinyMCE テーブル"
+
+#: blocks/library/table2/table-block.js:16
+msgid "Insert Row Before"
+msgstr "前に行を挿入"
+
+#: blocks/library/table2/table-block.js:21
+msgid "Insert Row After"
+msgstr "後に行を挿入"
+
+#: blocks/library/table2/table-block.js:26
+msgid "Delete Row"
+msgstr "行の削除"
+
+#: blocks/library/table2/table-block.js:31
+msgid "Insert Column Before"
+msgstr "列を前に挿入"
+
+#: blocks/library/table2/table-block.js:36
+msgid "Insert Column After"
+msgstr "列を後に挿入"
+
+#: blocks/library/table2/table-block.js:41
+msgid "Delete Column"
+msgstr "カラムを削除"
+
+#: blocks/library/text/index.js:22
+#: editor/modes/visual-editor/block-list.js:258
 msgid "Text"
 msgstr "テキスト"
 
-#: blocks/library/text/index.js:55
+#: blocks/library/text/index.js:57
+msgid "Text. Great things start here."
+msgstr "テキスト。すべてはここから始まります。"
+
+#: blocks/library/text/index.js:59
+msgid "Text Settings"
+msgstr "テキスト設定"
+
+#: blocks/library/text/index.js:61
 msgid "Drop Cap"
 msgstr "下付きキャプション"
 
-#: blocks/library/text/index.js:82
+#: blocks/library/text/index.js:88
 msgid "Write…"
 msgstr "入力..."
 
@@ -315,28 +426,28 @@ msgstr "オン"
 msgid "Off"
 msgstr "オフ"
 
-#: components/form-token-field/index.js:194
+#: components/form-token-field/index.js:196
 msgid "%d result found, use up and down arrow keys to navigate."
 msgid_plural "%d results found, use up and down arrow keys to navigate."
 msgstr[0] "%d件の結果が見つかりました。上下キーを使って操作できます。"
 
-#: components/form-token-field/index.js:200
+#: components/form-token-field/index.js:202
 msgid "No results."
 msgstr "結果はありません。"
 
-#: components/form-token-field/index.js:543
+#: components/form-token-field/index.js:545
 msgid "Separate with commas"
 msgstr "カンマ区切りで複数入力"
 
-#: components/form-token-field/index.js:562
+#: components/form-token-field/index.js:565
 msgid "Item added."
 msgstr "項目を追加しました。"
 
-#: components/form-token-field/index.js:563
+#: components/form-token-field/index.js:566
 msgid "Item removed."
 msgstr "項目を削除しました。"
 
-#: components/form-token-field/index.js:564
+#: components/form-token-field/index.js:567
 msgid "Remove item: %s."
 msgstr "項目を削除: ％s。"
 
@@ -346,12 +457,12 @@ msgstr "通知を無視"
 
 #: components/panel/body.js:39
 msgid "Open section: %s"
-msgstr ""
+msgstr "セクションを開く: %s"
 
 #: editor/block-mover/mover-label.js:102
 msgid ""
 "Move %(selectedCount)d blocks from position %(position)s down by one place"
-msgstr ""
+msgstr "%(selectedCount)d件のブロックをポジション%(position)sから1つ下に移動"
 
 # %s: Type of block (i.e. Text, Image etc)
 #: editor/block-mover/mover-label.js:28
@@ -391,36 +502,68 @@ msgstr ""
 #: editor/block-mover/mover-label.js:92
 msgid ""
 "Move %(selectedCount)d blocks from position %(position)d up by one place"
-msgstr ""
+msgstr "%(selectedCount)d件のブロックをポジション%(position)sから1つ上に移動"
 
 #: editor/block-settings-menu/index.js:32
 msgid "Show inspector"
-msgstr ""
+msgstr "インスペクタを表示"
 
 #: editor/block-settings-menu/index.js:38
 msgid "Delete the block"
-msgstr ""
+msgstr "ブロックを削除"
 
 #: editor/block-switcher/index.js:82
 msgid "Change block type"
-msgstr ""
+msgstr "ブロックタイプを変更"
 
 #: editor/block-switcher/index.js:91
 msgid "Block types"
-msgstr ""
+msgstr "ブロックタイプ"
 
-#: editor/effects.js:68
+#: editor/effects.js:100
+msgid "View post"
+msgstr "投稿を表示"
+
+#: editor/effects.js:123
+msgid "Publishing failed"
+msgstr "公開に失敗しました"
+
+#: editor/effects.js:124
+msgid "Scheduling failed"
+msgstr "予約投稿に失敗しました"
+
+#: editor/effects.js:128
+msgid "Updating failed"
+msgstr "更新に失敗しました"
+
+#: editor/effects.js:69
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "不明なエラーが発生しました。"
+
+#: editor/effects.js:84
+msgid "Post published!"
+msgstr "投稿を公開しました !"
+
+#: editor/effects.js:85
+msgid "Post published privately!"
+msgstr "投稿を非公開で公開しました !"
+
+#: editor/effects.js:86
+msgid "Post schduled!"
+msgstr "予約投稿しました !"
+
+#: editor/effects.js:95
+msgid "Post updated!"
+msgstr "投稿を更新しました !"
 
 #: editor/header/index.js:29
 msgid "%d block selected"
 msgid_plural "%d blocks selected"
-msgstr[0] ""
+msgstr[0] "%d件のブロックを選択"
 
 #: editor/header/index.js:34
 msgid "Delete selected blocks"
-msgstr ""
+msgstr "選択したブロックを削除"
 
 #: editor/header/index.js:38
 msgid "Delete"
@@ -428,7 +571,7 @@ msgstr "削除"
 
 #: editor/header/index.js:44
 msgid "Clear selected blocks"
-msgstr ""
+msgstr "選択したブロックをクリア"
 
 #: editor/header/mode-switcher/index.js:26
 msgid "Visual"
@@ -488,23 +631,36 @@ msgstr ""
 msgid "Insert block"
 msgstr "ブロックを挿入"
 
-#: editor/inserter/menu.js:235
+#: editor/inserter/menu.js:258
 msgid "Search blocks"
 msgstr "ブロックを検索"
 
-#: editor/inserter/menu.js:241
+#: editor/inserter/menu.js:264
 msgid "Search…"
 msgstr "検索..."
 
-#: editor/modes/visual-editor/block-list.js:232
+#: editor/inserter/menu.js:331
+msgid "Recent"
+msgstr "最近"
+
+#: editor/inserter/menu.js:337
+msgid "Blocks"
+msgstr "ブロック"
+
+#: editor/inserter/menu.js:343
+msgid "Embeds"
+msgstr "埋め込み"
+
+#: editor/modes/visual-editor/block-list.js:245
 msgid "Write your story"
 msgstr "本文をここに書く"
 
-#: editor/modes/visual-editor/block-list.js:232
-msgid "Continue writing…"
-msgstr "さらに入力..."
+# %s: Type of block (i.e. Text, Image etc)
+#: editor/modes/visual-editor/block.js:241
+msgid "Block: %s"
+msgstr "ブロック: %s"
 
-#: editor/modes/visual-editor/index.js:74
+#: editor/modes/visual-editor/index.js:73
 msgid "Visual Editor"
 msgstr "ビジュアルエディタ"
 
@@ -609,7 +765,7 @@ msgstr "投稿フォーマット"
 msgid "Stick to the front page"
 msgstr "フロントページに固定"
 
-#: editor/sidebar/post-taxonomies/categories-selector.js:118
+#: editor/sidebar/post-taxonomies/categories-selector.js:119
 msgid "Categories"
 msgstr "カテゴリー"
 
@@ -617,23 +773,23 @@ msgstr "カテゴリー"
 msgid "Categories & Tags"
 msgstr "カテゴリーとタグ"
 
-#: editor/sidebar/post-taxonomies/tags-selector.js:110
+#: editor/sidebar/post-taxonomies/tags-selector.js:153
 msgid "Tags"
 msgstr "タグ"
 
-#: editor/sidebar/post-taxonomies/tags-selector.js:118
+#: editor/sidebar/post-taxonomies/tags-selector.js:162
 msgid "Add New Tag"
 msgstr "新しいタグを追加"
 
-#: editor/sidebar/post-taxonomies/tags-selector.js:120
+#: editor/sidebar/post-taxonomies/tags-selector.js:164
 msgid "Tag added."
 msgstr "タグを追加しました。"
 
-#: editor/sidebar/post-taxonomies/tags-selector.js:121
+#: editor/sidebar/post-taxonomies/tags-selector.js:165
 msgid "Tag removed."
 msgstr "タグを削除しました。"
 
-#: editor/sidebar/post-taxonomies/tags-selector.js:122
+#: editor/sidebar/post-taxonomies/tags-selector.js:166
 msgid "Remove tag: %s."
 msgstr "タグを削除: %s。"
 
@@ -655,7 +811,7 @@ msgstr "パスワードを作成"
 
 #: editor/sidebar/post-visibility/index.js:52
 msgid "Would you like to privately publish this post now?"
-msgstr ""
+msgstr "非公開の記事として今すぐ公開しますか ?"
 
 #: editor/sidebar/post-visibility/index.js:82
 msgid "Public"
@@ -694,3 +850,21 @@ msgstr "テキスト"
 msgctxt "imperative verb"
 msgid "Preview"
 msgstr "プレビュー"
+
+#~ msgid "Fixed Position"
+#~ msgstr "固定位置"
+
+#~ msgid "Write title"
+#~ msgstr "タイトルを書く"
+
+#~ msgid "Heading Size"
+#~ msgstr "見出しサイズ"
+
+#~ msgid "Write Quote…"
+#~ msgstr "引用を入力..."
+
+#~ msgid "Add citation…"
+#~ msgstr "引用元を追加..."
+
+#~ msgid "Continue writing…"
+#~ msgstr "さらに入力..."
