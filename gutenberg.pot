@@ -1116,6 +1116,14 @@ msgstr ""
 msgid "Suggestion:"
 msgstr ""
 
+#: editor/sidebar/post-schedule/clock.js:73
+msgid "AM"
+msgstr ""
+
+#: editor/sidebar/post-schedule/clock.js:80
+msgid "PM"
+msgstr ""
+
 #: editor/sidebar/post-schedule/index.js:47
 msgid "Immediately"
 msgstr ""
